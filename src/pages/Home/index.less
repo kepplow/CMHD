@@ -1,3 +1,15 @@
-.container {
-  padding-top: 80px;
+.pageWrapper {
+  padding: 0 20px;
+  color: #333;
+  font-size: 14px;
+  .dots {
+    li {
+      background-color: #ccc;
+
+    }
+
+    :global(li.slick-active button) {
+      background: gray !important;
+    }
+  }
 }

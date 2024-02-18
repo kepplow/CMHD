@@ -10,6 +10,13 @@ export default defineConfig({
   // layout: false,
   routes,
   npmClient: 'npm',
+  analyze: {
+    analyzerMode: 'static',
+  },
+  codeSplitting: {
+    jsStrategy: 'depPerChunk',
+  },
+  ignoreMomentLocale: true,
   plugins: [
     require.resolve('@umijs/plugins/dist/unocss')
   ],

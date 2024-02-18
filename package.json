@@ -17,6 +17,7 @@
     "@unocss/cli": "^0.58.3",
     "animate.css": "^4.1.1",
     "antd": "^5.4.0",
+    "react-captcha-code": "^1.0.7",
     "unocss": "^0.58.3"
   },
   "devDependencies": {
